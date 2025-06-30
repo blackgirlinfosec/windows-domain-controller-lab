@@ -6,7 +6,7 @@
 
 ## 🧠 Why this lab matters (SOC Analyst mindset)
 
-As a Tier 1 SOC Analyst, you'll investigate suspicious logins, privilege escalation, and authentication issues. Many of these trace back to Active Directory. This lab helps you understand how a Domain Controller is built, how it works, and why it's a high value target in many attacks.
+As a Tier 1 SOC Analyst, I'll investigate suspicious logins, privilege escalation, and authentication issues. Many of these trace back to Active Directory. This lab helps me understand how a Domain Controller is built, how it works, and why it's a high value target in many attacks.
 
 ---
 
@@ -40,7 +40,7 @@ As a Tier 1 SOC Analyst, you'll investigate suspicious logins, privilege escalat
 - Subnet Mask: `255.255.255.0`  
 - DNS Server: `127.0.0.1`
 
-🔍 **Why this matters:** You're creating a private lab environment. This keeps your VM off the public internet. Using `127.0.0.1` as DNS means the server will refer to itself for name resolution.
+🔍 **Why this matters:** Creating a private lab environment. This keeps the VM off the public internet. Using `127.0.0.1` as DNS means the server will refer to itself for name resolution.
 
 ---
 
@@ -51,7 +51,7 @@ As a Tier 1 SOC Analyst, you'll investigate suspicious logins, privilege escalat
 
 - Created a new forest named `cyberlab.local`
 
-🧵 Think of a forest like a neighborhood, and the domain `cyberlab.local` is your gated community where all the trusted devices live.
+🧵 Think of a forest like a neighborhood, and the domain `cyberlab.local` is a gated community where all the trusted devices live.
 
 ---
 
@@ -127,7 +127,5 @@ As a Tier 1 SOC Analyst, you'll investigate suspicious logins, privilege escalat
 
 ---
 
-## ✅ Lab Complete
 
-You now have a fully operational Domain Controller running `cyberlab.local`. This forms the foundation for future detection labs and any exercises involving Active Directory, user authentication, or privilege escalation.
 
